@@ -15,6 +15,17 @@ Ao contrário das ferramentas existentes, a GrafIA vai auxiliar em um aprendizad
 3. No colab clique em executar tudo
 
 ## Roadmap de implementação
+## Roadmap de implementação
+
+| Tarefa | Data Limite |
+| :--- | :--- |
+| Prompt para expandir o RAG | 29/11 |
+| Criar interface do usuário com streamlit | 29/11 |
+| RAG com LiquidRAG | 29/11 |
+| Criar funções de extração dos dados do KG | 06/12 |
+| Criar KG com neo4j | 06/12 |
+| Gerar Resposta ao usuário | 06/12 |
+| Criar sistema de checagem se já existe um grafo com o tema | 06/12 |
 
 
 #### Equipe: Lucas Venancio, João Santana, William Silva
