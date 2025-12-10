@@ -1,235 +1,35 @@
-%  LaTeX support: latex@mdpi.com 
-%  For support, please attach all files needed for compiling as well as the log file, and specify your operating system, LaTeX version, and LaTeX editor.
 
-%=================================================================
-\documentclass[journal,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+@inproceedings{Bui_2024, series={ICMR ’24},
+   title={Cross-Data Knowledge Graph Construction for LLM-enabled Educational Question-Answering System: A Case Study at HCMUT},
+   url={http://dx.doi.org/10.1145/3643479.3662055},
+   DOI={10.1145/3643479.3662055},
+   booktitle={Proceedings of the 1st ACM Workshop on AI-Powered Q\&A Systems for Multimedia},
+   publisher={ACM},
+   author={Bui, Tuan and Tran, Oanh and Nguyen, Phuong and Ho, Bao and Nguyen, Long and Bui, Thang and Quan, Tho},
+   year={2024},
+   month={jun}, pages={36–43},
+   collection={ICMR ’24} }
 
-%=================================================================
-% MDPI internal commands - do not modify
-\usepackage{minted}
-\usepackage{graphicx}
-\firstpage{1} 
-\makeatletter 
-\setcounter{page}{\@firstpage} 
-\makeatother
-\pubvolume{1}
-\issuenum{1}
-\articlenumber{0}
-\pubyear{2025}
-\copyrightyear{2025}
-%\externaleditor{Firstname Lastname} % More than 1 editor, please add `` and '' before the last editor name
-\datereceived{ } 
-\daterevised{ } % Comment out if no revised date
-\dateaccepted{ } 
-\datepublished{ } 
-%\datecorrected{} % For corrected papers: "Corrected: XXX" date in the original paper.
-%\dateretracted{} % For retracted papers: "Retracted: XXX" date in the original paper.
-\hreflink{https://doi.org/} % If needed use \linebreak
-%\doinum{}
-%\pdfoutput=1 % Uncommented for upload to arXiv.org
-%\CorrStatement{yes}  % For updates
-%\longauthorlist{yes} % For many authors that exceed the left citation part
-%\IsAssociation{yes} % For association journals
-
-%=================================================================
-% Full title of the paper (Capitalized)
-\Title{Utilizando RAG e IA para uma ferramenta de estimulo ao pensamento}
-
-% MDPI internal command: Title for citation in the left column
-\TitleCitation{Utilizando RAG e IA para uma ferramenta de estimulo ao pensamento}
-
-
-% Authors, for the paper (add full first names)
-\Author{Lucas Venancio $^{1}$\orcidA{}, João Santana $^{2}$ and William Silva $^{2,}$*}
-
-% --- CORREÇÃO 1: Definição do ORCID ---
-% Substitua os zeros pelo seu número real do ORCID, se tiver.
-\newcommand{\orcidauthorA}{0000-0000-0000-0000} 
-
-% MDPI internal command: Authors, for metadata in PDF
-\AuthorNames{Lucas Venancio, João Santana and William Silva}
-
-% --- CORREÇÃO 2: Endereços (Afiliações) ---
-% O template EXIGE que se defina o que é o 1 e o 2 colocados lá em cima.
-\address{%
-    $^{1}$ \quad Departamento de Computação, Universidade Federal Rural de Pernambuco (UFRPE), Recife, Brasil \\
-    $^{2}$ \quad Embrapa Solos / Fast Soluções, Brasil
+@Article{soc15010006,
+AUTHOR = {Gerlich, Michael},
+TITLE = {AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking},
+JOURNAL = {Societies},
+VOLUME = {15},
+YEAR = {2025},
+NUMBER = {1},
+ARTICLE-NUMBER = {6},
+URL = {https://www.mdpi.com/2075-4698/15/1/6},
+ISSN = {2075-4698},
+ABSTRACT = {The proliferation of artificial intelligence (AI) tools has transformed numerous aspects of daily life, yet its impact on critical thinking remains underexplored. This study investigates the relationship between AI tool usage and critical thinking skills, focusing on cognitive offloading as a mediating factor. Utilising a mixed-method approach, we conducted surveys and in-depth interviews with 666 participants across diverse age groups and educational backgrounds. Quantitative data were analysed using ANOVA and correlation analysis, while qualitative insights were obtained through thematic analysis of interview transcripts. The findings revealed a significant negative correlation between frequent AI tool usage and critical thinking abilities, mediated by increased cognitive offloading. Younger participants exhibited higher dependence on AI tools and lower critical thinking scores compared to older participants. Furthermore, higher educational attainment was associated with better critical thinking skills, regardless of AI usage. These results highlight the potential cognitive costs of AI tool reliance, emphasising the need for educational strategies that promote critical engagement with AI technologies. This study contributes to the growing discourse on AI’s cognitive implications, offering practical recommendations for mitigating its adverse effects on critical thinking. The findings underscore the importance of fostering critical thinking in an AI-driven world, making this research essential reading for educators, policymakers, and technologists.},
+DOI = {10.3390/soc15010006}
 }
 
-% --- CORREÇÃO 3: Autor Correspondente ---
-% O template EXIGE um email de correspondência para o autor marcado com * (William).
-\corres{Correspondence: email.do.william@exemplo.com}
-
-\isAPAStyle{%
-       \AuthorCitation{Venancio, L., Santana, J., \& Silva, W.}
-          }{%
-        
+@misc{kosmyna2025brainchatgptaccumulationcognitive,
+      title={Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task}, 
+      author={Nataliya Kosmyna and Eugene Hauptmann and Ye Tong Yuan and Jessica Situ and Xian-Hao Liao and Ashly Vivian Beresnitzky and Iris Braunstein and Pattie Maes},
+      year={2025},
+      eprint={2506.08872},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2506.08872}, 
 }
-
-\abstract{O uso crescente e passivo de Modelos de Linguagem (LLMs) tem levantado preocupações sobre o declínio do pensamento crítico e da satisfação cognitiva no processo de aprendizado. Este artigo apresenta o GrafIA, uma ferramenta educacional gamificada que utiliza técnicas de Retrieval-Augmented Generation (RAG) integradas a Grafos de Conhecimento (via Neo4J) para transformar a interação com a IA. Ao contrário dos chatbots tradicionais que fornecem respostas prontas, o GrafIA estrutura o conteúdo em nós de conhecimento interconectados, incentivando o usuário a explorar e preencher lacunas de aprendizado de forma ativa. A arquitetura proposta visa mitigar a dependência de respostas imediatas, promovendo um aprendizado mais profundo e consciente. O trabalho descreve a implementação do sistema e o desenho experimental para validar a hipótese de que a visualização do conhecimento em grafos gera maior engajamento e satisfação em estudantes universitários comparado ao uso de LLMs convencionais.}
-
-% Keywords
-\keyword{AI; Artificial inteligence; Knowledge Graph; Learning;} 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{document}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Introdução}
-
-Atualmente, vemos que o uso constante de IA (inteligência artificial) por usuários em geral tem causado danos ao processo de pensamento crítico \cite{soc15010006}. Usar a IA somente para obter respostas rápidas faz com que áreas do cérebro responsáveis pelo pensamento sejam menos ativadas ou não sejam ativadas. No trabalho de Nataliya Kosmyna, vemos que: "Pensando em considerações éticas, participantes que estavam no grupo 'somente cérebro' apresentaram maior satisfação e conectividade cerebral, em comparação a outros grupos. Textos escritos com a ajuda de uma LLM tiveram menor significado ou valor para os participantes."
-
-Existem algumas pesquisas que buscam utilizar as ferramentas existentes para criar novas ferramentas para auxiliar em um uso melhor da IA, como o de \cite{Bui_2024}. Nele, o artigo propõe um método para a construção automática de um Grafo de Conhecimento (Knowledge Graph) a partir de fontes de dados em um ambiente universitário, com o objetivo de usá-lo em um sistema de perguntas e respostas educacional usando LLMs.
-Ele utiliza a técnica Retrieval-Augmented Generation (RAG). Com base nesse artigo, vemos que podemos seguir a mesma ideia e criar uma plataforma chatbot que auxilie no aprendizado e incentive o pensamento crítico.
-As ferramentas mapeadas foram: RAGs para buscar o material gerado por uma LLM, que irá gerar um conteúdo bruto. O RAG irá pegar essas respostas da LLM e fornecer ao Neo4J para criar um Grafo de Conhecimentos necessários para que o usuário se aprofunde e aprenda sobre o assunto de seu interesse.
-
-A ferramenta planejada se chama GrafIA. Nela, o usuário deve inserir o assunto que busca aprender mais sobre ou a tarefa que deseja concluir. Então, a IA irá responder-lhe com um Grafo de Conhecimentos com vários nós ligados ao assunto/objetivo final.
-Cada nó pode ser concluído para demonstrar progresso. Para uso em salas de aula, cada nó cumprido gerará uma pontuação. Assim, professores podem pedir aos alunos para terem uma pontuação mínima no grafo ou usar a pontuação na plataforma para integrar a gamificação da ferramenta na disciplina.
-
-Assim, a maior diferenciação do projeto para trabalhos já existentes é a junção da ferramenta a ambientes propícios ao aprendizado e o uso de gamificação para atrair usuários ao uso da ferramenta. Assim, os usuários começam usando na sala de aula e acabam se sentindo estimulados e passam a usar no dia a dia também, já que, como vimos no artigo de \cite{soc15010006}, tarefas realizadas com maior atividade cerebral geram mais satisfação para a pessoa. Ao contrário das ferramentas existentes, a GrafIA vai auxiliar em um aprendizado mais consciente e profundo, fazendo com que o aluno saiba das suas lacunas e como preenchê-las.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Trabalhos relacionados}
-
-Cross-Data Knowledge Graph Construction for LLM-enabled Educational Question-Answering System: A Case Study at HCMUT
-
-Fortemente alinhado com as metodologias usadas. O uso de grafos de conhecimento (Knowledge Graph).
-
-O artigo propõe um método para a construção automática de um Knowledge Graph a partir de fontes de dados em um ambiente universitário, com o objetivo de usá ele em um sistema de perguntas e respostas educacional usando LLMs. Ele utiliza a técnica Retrieval-Augmented Generation (RAG). A metodologia envolveu o E-OED Framework (Educational Open Entity Discovery) para descobrir intenções em dados não estruturados, usando Semantic Clustering e Automatic Cluster Labeling, e um método baseado em Embedding para descobrir relações entre entidades como, intenção e política, a fim de construir o grafo de conhecimento. Ele usa o LLM para gerar uma consulta ao grafo, que retorna subgrafos relevantes para contextualizar o prompt final do LLM. 
-
-Entre as semelhanças estão os usos de grafos, LLMS e RAG. Observa-se que o artigo usou uma fonte de dados de ambiente universitário para treinar já que esse era o público alvo, sendo um público mais fechado.
-
-Supporting Student Decisions on Learning Recommendations: An LLM-Based Chatbot with Knowledge Graph Contextualization for Conversational Explainability and Mentoring
-
-Esse estudo usou uma abordagem para usar um chatbot baseado em LLM’s, como mediador e como uma fonte mais controlada de explicações, para ajudar os alunos na compreensão das recomendações de caminhos de aprendizado. A metodologia adotou quatro estratégias principais para controlar a geração de texto do LLM, incluindo a limitação do escopo das tarefas da LLM, o uso de re-prompting para garantir a que a intenção do usuário seja clara e o enriquecimento do prompt do LLM, e contextualização baseada em Knowledge Graph (KG). Além disso, o sistema incluiu um chat em grupo com um mentor humano para maior segurança e para perguntas fora do escopo ou em casos de não compreensão. 
-
-Aqui teve uma abordagem interessante principalmente por ter o chat com um humano para ajudar nos possíveis erros ou limitações da LLM. Nesse caso o projeto é mais um mediador passivo do que um agente ativo no aprendizado do aluno quando comparado com o artigo anterior. As aplicações de tecnologias se assemelham mas a maneira como o projeto e a IA age no projeto difere um pouco 
-
-Implementing a proposed framework for enhancing critical
-thinking skills in synthesizing AI-generated texts
-
-Aqui foi proposto um framework estruturado em cinco fases: familiarização, conceituação, investigação, avaliação e síntese. Assim ele aprimora as habilidades de pensamento crítico dos estudantes na síntese dos textos gerados por IA, e ainda fundamentado em teorias como a Taxonomia de Bloom e o modelo de Paul e Elder. A metodologia envolveu dois experimentos: o **Estudo 1 (n=179)** usou treinamento rigoroso com tarefas de dificuldade crescente para validar a eficácia do framework, e o **Estudo 2 (n=125)** utilizou um desenho experimental pré-teste e pós-teste com três grupos para comparação contextual. Os resultados do Estudo 1 revelaram que o framework aprimora as habilidades de pensamento critico para síntese de textos gerados por IA de forma incremental, com escores mais altos nas tarefas mais desafiadoras, e que as concorrências das habilidades de pensamento crítico são ligadas a traços de personalidade. 
-
-Aqui temos um estudo ainda mais focado em melhorar o pensamento crítico, e com foco maior em auxiliar o estudante/usuário a sintetizar os textos da ia e menos estimular a busca independente do estudante.
-
-Integration of Artificial Intelligence as a Tool to Enhance Critical Thinking Skills and Foster
-Learning in Bioengineering Education
-
-A metodologia usada neste estudo explorou o potencial da Inteligência Artificial (IA) para aprimorar o pensamento crítico (CrT) e os resultados de aprendizado em um curso de bioquímica para estudantes de bioengenharia. O projeto fez um experimento com um grupo de IA (n=55) e um grupo de controle (n=26). O grupo de IA foi instruído a integrar ativamente o ChatGPT como ferramenta de coleta de informações, sendo explicitamente orientado a analisar criticamente a qualidade da informação e compará-la com bases de dados tradicionais para verificar os resultados. O aprendizado foi avaliado por um teste padronizado e a competência em CrT foi avaliada por meio de uma rubrica. Os resultados indicaram que as notas dos exames foram significativamente mais altas no grupo de IA (85,3 ± 10,03) em comparação com o grupo de controle (78,4 ± 14,55). Embora não tenha havido diferença estatisticamente significativa no desempenho da competência de CrT, os alunos perceberam a IA como útil para melhorar a qualidade dos projetos, facilitar a geração de ideias (74,5%) e simplificar o desenvolvimento, mas a maioria (70,9%) considerou necessário verificar a informação obtida da IA.
-
-Esse serve mais como prova de que a ideia de usar a IA para auxiliar serve nem que seja usando ferramentas já existentes como chatgpt
-
-Enhancing Critical Thinking with AI: A Tailored Warning System for RAG
-Models
-
-O estudo propôs um sistema de aviso personalizado para modelos de RAG, que faz uma verificação de fatos em duas camadas (recuperação e geração da LLM) para detectar alucinações e vieses, com o objetivo de aprimorar o raciocínio e o pensamento crítico dos usuários em vez de promover o consumo passivo de informação. A metodologia envolveu um estudo piloto com 18 participantes,  divididos em três grupos: sem aviso, aviso padrão e aviso personalizado, e eles responderam 18 perguntas de múltipla escolha baseadas em um livro didático, com respostas contendo diferentes níveis de alucinação (baixa e alta). Os avisos personalizados resultaram em maior confiança no sistema, embora os resultados qualitativos tenham revelado uma tensão, com participantes questionando por que o sistema não forneceria a resposta correta se fosse capaz de emitir o aviso.
-Aqui é mais um sistema de verificação das respostas já geradas por uma LLM, porém valioso porque é menos trabalhoso e ainda traz resultados que estimulam o usuário a repensar a resposta gerada automaticamente. 
-
-O estudo atual
-
-Nosso estudo preenche as lacunas de aplicação e resultado de muitos desses estudos. A maioria chega em resultados bons avaliando como complementar o estudo usando IA como ferramenta para pensamento crítico, ou estuda aplicações usando métodos parecidos com que buscamos e mapeamos. Portanto a ideia com nosso projeto GrafiA é aplicar essas técnicas e metodologias e aumentar o número e alcance de usuários, servindo não somente para alunos mas para professores também. Além disso buscamos aproveitar o ambiente de aprendizado para aplicar conceitos de gamificação para aumentar  ainda mais o estimulo ao aprendizado independente.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Método}
-A implementação do projeto foi feita combinando algumas tecnologias e métodos. 
-Podemos dividir o projeto em três partes, RAG, Grafos de Conhecimento com Neo4j, uso de LLM (LiquidAI) generativa de texto.
-A LLM recebeu o seguinte prompt em inglês
-
-\begin{minted}{markdown}
-You are a helpful teacher. Your task is to analyze a user's query about a topic and extract key concepts, their prerequisites, and the learning priority among them.
-Output ONLY a valid JSON object in the following format:
-{{
-  "nodes": [
-    {{"id": "ConceptName", "type": "Concept"}},
-    {{"id": "PrerequisiteName", "type": "Prerequisite"}}
-  ],
-  "edges": [
-    {{"source": "ConceptName", "target": "PrerequisiteName", "relation": "HAS_PREREQUISITE"}},
-    {{"source": "ConceptName", "target": "AnotherConcept", "relation": "LEADS_TO"}},
-    {{"source": "ConceptName", "target": "PriorityLevel", "relation": "PRIORITY"}}
-  ],
-}}
-
-Example:
-Input: "Explain the basics of Python programming, starting with variables, then functions, and later object-oriented programming. Variables are a prerequisite for functions."
-Output: {{
-  "nodes": [
-    {{"id": "Python Programming", "type": "Concept"}},
-    {{"id": "Variables", "type": "Concept"}},
-    {{"id": "Functions", "type": "Concept"}},
-    {{"id": "Object-Oriented Programming (OOP)", "type": "Concept"}}
-  ],
-  "edges": [
-    {{"source": "Python Programming", "target": "Variables", "relation": "LEADS_TO"}},
-    {{"source": "Variables", "target": "Functions", "relation": "HAS_PREREQUISITE"}},
-    {{"source": "Functions", "target": "Object-Oriented Programming (OOP)", "relation": "LEADS_TO"}},
-    {{"source": "Python Programming", "target": "Medium", "relation": "PRIORITY"}}
-  ],
-}}
-\end{minted}
-
-O fluxo de informações segue uma estrutura em que a informação vai da LiquidAI para o RAG e do RAG para o Neo4J, e no final o grafo é exibido ao usuário.
-Para o RAG foi usado o Liquid. O projeto é rodado no Google Colab e pode ser acessado ao rodar as células. Sua interface foi feita com chainlit.py e é acessado usando um tunnel com ngrok.
-
-\begin{figure}[h]
-    \centering
-    % Certifique-se que o arquivo image.png existe no upload
-    \includegraphics[width=0.7\textwidth]{image.png}
-    \caption{Escreva aqui a legenda da imagem.}
-    \label{fig:figura de arquitetura}
-\end{figure}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Experimentos}
-Inicialmente buscamos avaliar como o  uso da ferramenta GrafIA irá impactar na satisfação dos alunos com a compleção das tarefas, além de como a ferramenta vai melhorar o pensamento crítico dos usuários. A hipótese é que a ferramenta tenho um impacto positivo, gere maior satisfação ao concluir tarefas usando o grafo de conhecimentos ao invés de usar respostas prontas de LLM's tradicionais. 
-
-Para o experimento e criação da plataforma e criação da plataforma vamos usar o google colab, os usuários irão testar usando uma interface simples feita em python.
-
-O teste da plataforma será feito por estudantes universitários de 18 a 24 anos, acreditamos que esse perfil seja ideal por apresentar maior maturidade e por se encontrarem mais em situações em que ser autodidata é inevitável. Inicialmente nesse artigo um grupo de 6 alunos de Ciência da Computação buscando aprender sobre um assunto, 3 com o GrafIA e 3 com LLM's tradicionais.
-
-As tarefas serão fazer uma pergunta sobre um assunto qualquer para ver a arvore de
-conhecimentos montada pela plataforma, assim o usuário poderá avaliar se a arvore de
-conhecimentos faz sentido na progressão de conhecimento.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Resultados e discussão}
-
-Dos 3 alunos que usaram o Grafia, 2 acharam uma boa plataforma para tentar aprender independentemente, mas muitos acabaram sentindo que a plataforma poderia ter também fontes confiáveis de conteúdo, para que no fim o usuário não acabe, fazendo um grafo de conhecimento e buscando a resposta de cada nó em LLMs que irão dar respostas diretas.
-Como esperado os 3 alunos que usaram LLM's sentiram que a IA respondeu a pergunta deles porém pouco foi absorvido de verdade da resposta. 
-
-Em geral percebemos que a GrafIA é uma ideia válida porém ainda falta  preencher algumas lacunas para que seja completa e tenha um impacto maior no aprendizado e pensamento crítico de estudantes.
-
-Como melhorias futuras estão mapeadas:
-1. Expansão da interface com elementos de gamificação para salas de aula
-2. Possibilidade de interagir com cada nó para poder aprender mais sobre cada nó e ir a fundo em um assunto.
-3. Banco de dados de fontes confiáveis para aprender sobre assuntos discutidos.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Conclusão}
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\reftitle{Referencias}
-
-% Please provide either the correct journal abbreviation (e.g. according to the “List of Title Word Abbreviations” http://www.issn.org/services/online-services/access-to-the-ltwa/) or the full name of the journal.
-% Citations and References in Supplementary files are permitted provided that they also appear in the reference list here. 
-
-%=====================================
-% References, variant A: external bibliography
-%=====================================
-\bibliography{referencias}
-
-%=====================================
-% References, variant B: internal bibliography
-%=====================================
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\PublishersNote{}
-%\isPreprints{}{% This command is only used for ``preprints''.
-%} % If the paper is ``preprints'', please uncomment this parenthesis.
-\end{document}
