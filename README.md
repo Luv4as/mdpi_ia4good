@@ -12,9 +12,9 @@ Ao contrário das ferramentas existentes, a GrafIA vai auxiliar em um aprendizad
 ## Executando o projeto
 1. Clique no arquivo no repositório github RAG_Inference.ipynb
 2. Ao abrir o arquivo clique no icone "Open in colab"
-3. No colab clique em executar tudo
+3. Preencher o Colab secrets com as chaves necessárias
+4. No colab clique em executar tudo
 
-## Roadmap de implementação
 ## Roadmap de implementação
 
 | Tarefa | Data Limite |
